@@ -44,6 +44,7 @@ for(int i=0;i<numberoftubes;i++)
 {
     pipeOffset[i]= (int) (generateTicketNumber(300, 800));
     tubex[i]= (int) (Gdx.graphics.getWidth() / 2 - toptube.getWidth() / 2+i*distancebetweentubes);
+//    tubex[i]= (int) (Gdx.graphics.getWidth()  - toptube.getWidth()*distancebetweentubes);
 }
     }
 
